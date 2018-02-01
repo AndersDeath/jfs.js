@@ -1,0 +1,18 @@
+{
+    "jsonStorage": "json",
+    "fileStorage": "storage",
+    "port": 3000,
+    "jsonData": [{
+            "url": "/test1",
+            "json": "test1"
+        },
+        {
+            "url": "/test2",
+            "json": "test2"
+        }
+    ],
+    "fileData": [{
+        "url":"/storage/text.txt",
+        "name":"test.txt"
+    }]
+}
