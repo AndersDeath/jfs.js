@@ -10,7 +10,9 @@ import {
     Files
 } from './src/Files.js';
 
-const server = new Server(config.port);
+
+let logPath = config.logs === true ?  __dirname + '/jsf.log' : false;
+const server = new Server(config.port, logPath);
 server.start();
 const json = new Json(__dirname + '/' + config.jsonStorage, config.jsonData, server);
 json.start();

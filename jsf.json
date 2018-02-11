@@ -1,6 +1,7 @@
 {
     "jsonStorage": "json",
     "fileStorage": "storage",
+    "logs": true,
     "port": 3000,
     "jsonData": [{
             "url": "/test1",
@@ -12,7 +13,7 @@
         }
     ],
     "fileData": [{
-        "url":"/storage/text.txt",
-        "name":"test.txt"
+        "url": "/storage/text.txt",
+        "name": "test.txt"
     }]
 }
